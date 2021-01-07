@@ -34,7 +34,7 @@ class App extends React.Component {
             <div>
                 <FirstComponent />
                 <SecondComponent />
-                <NamedComponent name='Emmanuel' />
+                <NamedComponent name='Akinwumi' />
             </div>
         )
     }
