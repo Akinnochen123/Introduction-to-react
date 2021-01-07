@@ -16,7 +16,7 @@ class Person extends React.Component {
                 <h2>{name}</h2>
                 <p>Learn some information about this person.</p>
                 {age > 21 ? (<h3>Have a drink</h3>)
-                : (<h3>You must be 21</h3>)}
+                : (<h3>You must be 18+</h3>)}
                 
                 {myHobby}
             </div>
@@ -29,9 +29,9 @@ class App extends React.Component {
         
         return (
             <div>
-                <Person name='Emmanuel Oderemi' age='28' hobbies={["Gaming", "Coding", "Loving"]} />
-                <Person name='Tunde' age='27' hobbies={["Gaming", "Tech", "Squeezing face"]} />
-                <Person name='Olamiji Badmus' age='20' hobbies={["Swimming", "Coding", "Inventing"]} />
+                <Person name='Ogunmola Akinwumi' age='26' hobbies={["football", "music", "coding"]} />
+                <Person name='Alabi Babatunde' age='26' hobbies={["football", "drawing", "politics"]} />
+                <Person name='Adedoyin Samuel' age='26' hobbies={["football", "photography", "Inventing"]} />
             </div>
         )
     }
