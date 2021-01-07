@@ -18,8 +18,8 @@ class Person extends React.Component {
             <div>
                 <h2>{name}</h2>
                 <p>Learn some information about this person.</p>
-                {age > 21 ? (<h3>Have a drink</h3>)
-                : (<h3>You must be 21</h3>)}
+                {age > 18 ? (<h3>Have a drink</h3>)
+                : (<h3>You must be 18+</h3>)}
                 
                 {myHobby}
             </div>
