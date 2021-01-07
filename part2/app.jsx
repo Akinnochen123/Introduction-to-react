@@ -16,10 +16,10 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Tweet username='EmmyM_ighty' name='Manny' dateOfTweet='1/12/2020'>This is my first Tweet in a while!!</Tweet>
-                <Tweet username='Temi_George' name='Temie' dateOfTweet='10/11/2020'>This is going to be really fun!</Tweet>
-                <Tweet username='Ope_Bantale' name='Opeyemi' dateOfTweet='11/1/2021'>This is a tweet for the future..</Tweet>
-                <Tweet username='Tunene' name='Tunde' dateOfTweet='11/2/2020'>This is my what i love to do best!</Tweet>
+                <Tweet username='Akinnochen' name='Akinwumi' dateOfTweet='01/01/21'>Hi there, I am a software developer!!</Tweet>
+                <Tweet username='Tufair' name='Tunde' dateOfTweet='02/01/21'>Hi there, I am an Architect!!!</Tweet>
+                <Tweet username='maas' name='Samuel' dateOfTweet='03/01/21'>Hi there, I am a professional photographer!!..</Tweet>
+                <Tweet username='BHB' name='Babajide' dateOfTweet='11/02/21'>Hi there, I am an electrical electronics engineer!!!</Tweet>
             </div>
         )
     }
