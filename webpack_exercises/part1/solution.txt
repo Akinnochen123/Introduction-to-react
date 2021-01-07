@@ -1,0 +1,36 @@
+1. What is webpack? What is babel?
+Ans: Webpack is a transpiling package, it helps us bundle our files into one package. Babel is the package that helps the browser understand JSX.
+    It translates JSX into normal javascript code.
+
+2. What is a loader? Give three examples of different kinds of loaders.
+Ans: Loaders are transformations applied to source code, they allow you pre-process files to be imported. They can also be used to transform files 
+    from different languages to javascript. Examples are: HeadJS, RequireJS, and LabJs.
+
+3. What is the difference between path and publicPath when used as keys in the output object?
+Ans: Path: This is the location where the js build bundle will be saved.
+    Publicpath: This is the location where public images as well as css will be saved.
+
+4. What is a babel preset?
+Ans: In Babel, a preset is a set of plugins used to support particular language features.
+
+5. What does test:/\.jsx?$/ mean inside of webpack.config.js?
+Ans: This is a regex statement that matches files that end with .js OR .jsx
+
+6. What is the webpack-dev-server?
+Ans: The webpack-dev-server is a tool that watches for changes in our files and starts a development server for us.
+
+7. Research tree shaking and code splitting. What are these two things and how do they help reduce bundle sizes?
+Ans: Tree shaking is the common term used by javascript when eliminating dead code. Code splitting is the splitting of code into 
+    various bundles or components which can then be loaded on demand or in parallel. They both help in rewducing bundle sizes.
+
+8. What does the default keyword do when exporting?
+Ans: export default is used to export a single class, function or primitive. It predetermines the piece of code to be sent, when the import statement 
+    is made to that particular file.
+
+9. What is object destructuring?
+Ans: The object destructuring is a useful JavaScript feature to extract properties from objects and bind them to variables. 
+    It can extract multiple properties in one statement, can access properties from nested objects, and can set a default 
+    value if the property doesn't exist.
+
+10. How can you enable your webpack.config.js to do certain things in production versus development?
+Ans: By setting the buildConfig to either development or production.
